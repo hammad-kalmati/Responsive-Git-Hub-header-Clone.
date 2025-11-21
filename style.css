@@ -1,0 +1,173 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #F6F8FA;
+}
+
+header {
+    border-bottom: 1px solid gray;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+/*/ HEADER LEFT SIDE /*/
+.left-side {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+/*/ MENU BUTTON SVG /*/
+.menu-btn {
+    height: 33px;
+    color: #59636E;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #D1D9E0;
+    cursor: pointer;
+}
+
+/*/ MENU BUTTON SVG HOVER /*/
+.menu-btn:hover {
+    background-color: #EAEDF0;
+}
+
+/*/ PRIFILE SVG /*/
+.profile-svg {
+    height: 33px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/*/ PRIFILE SVG HOVER /*/
+.profile-svg:hover {
+    transform: scale(1.1);
+}
+
+/*/ USER NAME & REPO NAME /*/
+.details {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/*/ USER NAME /*/
+.user-name {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/*/ USER NAME HOVER /*/
+.user-name:hover {
+    color: royalblue;
+    text-decoration: underline;
+}
+
+/*/ SLASH KEY SVG /*/
+.slash-key {
+    height: 18px;
+}
+
+/*/ REPO NAME /*/
+.repo-name {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/*/ REPO NAME HOVER /*/
+.repo-name:hover {
+    color: royalblue;
+    text-decoration: underline;
+}
+
+/*/ HEADER RIGHT SIDE /*/
+.right-side {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/*/ INPUT FIELD BOX /*/
+.input-box {
+    position: relative;
+}
+
+/*/ INPUT FIELD /*/
+.input-box input {
+    height: 32px;
+    width: 350px;
+    padding-left: 33px;
+    border: 1px solid #D1D9E0;
+    outline: none;
+    background-color: #F6F8FA;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/*/ SEARCH INPUT HOVER /*/
+.input-box:hover input,
+.input-box:hover span {
+    border: 1px solid #59636E;
+}
+
+/*/ SEARCH INPUT FOCUS /*/
+.input-box input:focus {
+    border: 1px solid royalblue;
+}
+
+/*/ SEARCH SVG /*/
+.search-svg {
+    position: absolute;
+    height: 18px;
+    fill: #59636E;
+    top: 7px;
+    left: 9px;
+    cursor: pointer;
+}
+
+/*/ SLASH KEY TEXT /*/
+.input-box span {
+    border: 0.1px solid #59636E;
+    padding: 0px 6px;
+    cursor: pointer;
+    border-radius: 3px;
+    position: absolute;
+    left: 68.5px;
+    top: 6px;
+}
+
+/*/ SELECTOR WITH SVG /*/
+.selector-box {
+    position: relative;
+}
+
+/*/ SELECT FIELD /*/
+.selector-box select {
+    height: 32px;
+    border-radius: 5px;
+    width: 60px;
+    background-color: #F6F8FA;
+    outline: none;
+    border: 1px solid #D1D9E0;
+    cursor: pointer;
+}
+select {
+    background-color: #F6F8FA;
+}
+
+/*/ COPILOT SVG /*/
+.copilot-svg {
+    height: 31px;
+    fill: #59636E;
+    position: absolute;
+    border-right: 1px solid #D1D9E0;
+    box-sizing: border-box;
+    padding: 7px 10px;
+}
